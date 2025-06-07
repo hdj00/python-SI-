@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from scipy.ndimage import sobel
 
 # === 自定义窗口大小 ===
-win_size = 50  # 对应900m（30m分辨率）
+win_size = 50
 
 # === 读取DEM ===
 with rasterio.open("D:\\lunwenfinal\\fill.tif") as src:
